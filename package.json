@@ -1,0 +1,15 @@
+{
+  "name": "free-instasaver",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Download media you have permission to save from public Instagram links.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "youtube-dl-exec": "^3.0.24"
+  }
+}
